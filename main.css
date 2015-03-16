@@ -1,3 +1,19 @@
-#title {
-  
+#companyName {
+    font-size: 25pt;
+}
+
+.navbar {
+    float: left;
+    margin: 5px;
+}
+
+.headings {
+    clear: both;
+    text-align: center;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    margin: 20px;
 }
