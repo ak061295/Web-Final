@@ -3,6 +3,7 @@
     <head>
         <title>Contact Us</title>
         <link type="text/css" rel="stylesheet" href="main.css" />
+        <script type="text/javascript" src="./script/validator.js"></script>></script>
     </head>
     <header>
         <nav>
@@ -23,8 +24,29 @@
             Hours: Monday - Friday, 10 AM - 7 PM EST<br>
             Fax: 801-555-5555<br>
             Phone: 801-555-5556<br>
-            Email: info@IntelliShoes.com
+            Email: info@intellishoes.com<br>
+            
+            You can also fill out the form below:
         </p>
+        
+        
+        <form name="theform" action="">
+            First name:<br>
+            <input type="text" name="firstname">
+            <br>
+            Last name:<br>
+            <input type="text" name="lastname">
+            <br>
+            Email:<br>
+            <input type="text" name="email">
+            <br>
+            Message:<br>
+            <input type="text" name="message" size="50">
+            <br> <br>
+            <input type="button" value="Submit" onClick="validate();">
+        </form>
+        
+        
     </body>
     <footer>
         <p>IntelliShoes Inc. &#169; 2015</p>
