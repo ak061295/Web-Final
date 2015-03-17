@@ -1,38 +1,64 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>About Us</title>
-        <link type="text/css" rel="stylesheet" href="main.css" />
-        <script type="text/javascript" src="script/backScript.js"></script>
-    </head>
-    <header>
-        <nav>
-            
-            <div id="companyName">IntelliShoes</div>
-            
-            <div>
-                <div class="navbar"><a href="index.html">Home</a></div>
-                <div class="navbar"><a href="specs.html">Smart Shoe Specs</a></div>
-                <div class="navbar"><a href="about.html">About Us</a></div>
-                <div class="navbar"><a href="contact.html">Contact Us</a></div>
-            </div>
-        </nav>
-    </header>
-    <body>
+
+<head>
+    <title>About Us</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+    <link rel='stylesheet' type='text/css' href='http://code.jquery.com/ui/1.9.1/themes/base/jquery-ui.css' />
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="main.css" />
+    <script type="text/javascript" src="script/backScript.js"></script>
+    <script type="text/javascript" src='script/about.js'></script>
+</head>
+<header>
+    <nav>
+
+        <div id="companyName">IntelliShoes</div>
+
+        <div class='index'>
+            <a href="index.html"><img src="Images/Home.png">
+            </a>
+        </div>
+        <div class='specs'>
+            <a href="specs.html"><img src="Images/Specs.png">
+            </a>
+        </div>
+        <div class='about'>
+            <a href="about.html"><img src="Images/About%20Us.png">
+            </a>
+        </div>
+        <div class='contact'>
+            <a href="contact.html"><img src="Images/Contact%20Us.png">
+            </a>
+        </div>
+    </nav>
+</header>
+
+<body>
+    <div id='menu'>
         <h1 class="headings">What is IntelliShoes?</h1>
-        <p>IntelliShoes is a brand new start-up company brought together to provide the backing for our product: Shoe Technology. We are based in downtown Salt Lake City, Utah. With combined years of experience and education, we strive to upgrade every day footwear up to the standard that is being set by wearable technology today.</p>
+        <div>
+            <p>IntelliShoes is a brand new start-up company brought together to provide the backing for our product: Shoe Technology. We are based in downtown Salt Lake City, Utah. With combined years of experience and education, we strive to upgrade every day footwear up to the standard that is being set by wearable technology today.</p>
+        </div>
         <h1 class="headings">Our Mission</h1>
-        <p>Here at IntelliShoes, we believe that if something can be integrated with technology to make it better, then we will find the way to make it happen. We began with a dream to make the greatest shoes in the history of footwear. Soon, our signature product, IntelliShoes, will be released to the market. We will continue to break the standards set for wearable technology to make every day life as comfortable and advanced as possible.</p> 
-        <h1 class="headings">Project Backers</h1>
-        <div id="backers"></div>
-        <form name="theform" action="">
-            <br> Name:<br>
-            <input type="text" name="firstname">
-            <br> <br>
-            <input type="button" value="Add Your Name" onClick="addName();">
-        </form>
-    </body>
-    <footer>
-        <p>IntelliShoes Inc. &#169; 2015</p>
-    </footer>
+        <div>
+            <p>Here at IntelliShoes, we believe that if something can be integrated with technology to make it better, then we will find the way to make it happen. We began with a dream to make the greatest shoes in the history of footwear. Soon, our signature product, IntelliShoes, will be released to the market. We will continue to break the standards set for wearable technology to make every day life as comfortable and advanced as possible.</p>
+        </div>
+    </div>
+    <h1 class="headings">Project Backers</h1>
+    <div id="backers"></div>
+    <form name="theform" action="">
+        <br> Name:
+        <br>
+        <input type="text" name="firstname">
+        <br>
+        <br>
+        <input type="button" value="Add Your Name" onClick="addName();">
+    </form>
+</body>
+<footer>
+    <p>IntelliShoes Inc. &#169; 2015</p>
+</footer>
+
 </html>
